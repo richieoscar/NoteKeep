@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.note.NoteActivity">
+    <item
+        android:id="@+id/action_send_mail"
+        android:orderInCategory="100"
+        android:title="Send as Email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Cancel"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_back"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="Back"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_next"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="Next"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>
